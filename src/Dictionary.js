@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./Dictionary.css";
+import axios from "axios";
 
 export default function Dictionary() {
   let [keyword, setKeyword] = useState("");
