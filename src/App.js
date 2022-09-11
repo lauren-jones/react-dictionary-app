@@ -1,10 +1,12 @@
 import "./App.css";
+import Dictionary from "./Dictionary";
 
 function App() {
   return (
     <div className="App">
       <div className="container">
-        <button className="btn btn-primary">Search</button>
+        <h1>React Dictionary App</h1>
+        <Dictionary />
       </div>
     </div>
   );
