@@ -1,12 +1,14 @@
 import React, { useState } from "react";
 import "./Dictionary.css";
 import axios from "axios";
+import Results from "./Results";
 
 export default function Dictionary() {
   let [keyword, setKeyword] = useState("");
+  let [definition, setDefinition] = useState(null);
 
   function handleResponse(response) {
-    console.log(response.data);
+    setDefinition(response.data[0]);
   }
 
   function search(event) {
@@ -31,6 +33,7 @@ export default function Dictionary() {
           onChange={handleKeywordChange}
         ></input>
       </form>
+      <Results definition={definition} />
     </div>
   );
 }
