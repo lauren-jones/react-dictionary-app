@@ -1,6 +1,51 @@
 .Dictionary section {
   background: white;
-  padding: 30px;
-  border-radius: 16px;
+  padding: 40px;
+  border-radius: 4px;
+  margin: 0 auto;
+  max-width: 940px;
+  margin-bottom: 15px;
+  box-shadow: 0 30px 50px rgb(65 50 100 / 8%);
+}
+
+.Dictionary .label {
+  font-weight: 600;
+  font-style: normal;
+  font-size: 24px;
   margin-bottom: 20px;
+  line-height: 29px;
+}
+
+.Dictionary p {
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+.Dictionary .Word {
+  font-size: 35px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.Dictionary .btn {
+  border-radius: 30px;
+  padding: 5px 20px;
+  border-color: var(--accent-color);
+  color: var(--accent-color);
+  margin-right: 20px;
+}
+
+.Dictionary .btn:hover {
+  background: var(--accent-color);
+  color: white;
+  border-color: var(--accent-color);
+}
+
+.Dictionary .Meaning {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.Dictionary form ::placeholder {
+  font-weight: 600;
 }

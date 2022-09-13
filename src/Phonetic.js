@@ -4,12 +4,17 @@ export default function Phonetic(props) {
   if (props.phonetic.audio !== "" && props.phonetic.text !== "") {
     return (
       <div>
-        <div>
-          <a href={props.phonetic.audio} target="_blank" rel="noreferrer">
+        <span className="Audio">
+          <a
+            href={props.phonetic.audio}
+            target="_blank"
+            rel="noreferrer"
+            className="btn btn-outline-primary"
+          >
             Listen
           </a>
-        </div>
-        <div>{props.phonetic.text}</div>
+        </span>
+        <span className="Text">{props.phonetic.text}</span>
       </div>
     );
   } else {
