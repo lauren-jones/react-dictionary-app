@@ -33,6 +33,7 @@
   border-color: var(--accent-color);
   color: var(--accent-color);
   margin-right: 20px;
+  margin-bottom: 15px;
 }
 
 .Dictionary .btn:hover {
