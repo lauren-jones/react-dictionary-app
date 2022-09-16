@@ -67,6 +67,17 @@ export default function Dictionary(props) {
         </section>
         <Results definition={definition} />
         <Photos photos={photos} />
+        <div className="credits">
+          This project was coded by Lauren Jones and is{" "}
+          <a
+            href="https://github.com/lauren-jones/react-dictionary-app"
+            target="_blank"
+            rel="noreferrer"
+          >
+            open-sourced on GitHub
+          </a>
+        </div>
+        .
       </div>
     );
   } else {

@@ -50,3 +50,21 @@
 .Dictionary form ::placeholder {
   font-weight: 600;
 }
+
+.Dictionary .credits {
+  text-align: center;
+  font-size: 12px;
+}
+
+.Dictionary .credits a {
+  color: var(--accent-color);
+  text-decoration: none;
+}
+
+.Dictionary .credits a:hover {
+  color: var(--accent-color);
+}
+
+.Dictionary li {
+  font-size: 14px;
+}
